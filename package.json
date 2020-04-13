@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b -v",
-    "clean": "tsc -b --clean"
+    "clean": "tsc -b --clean",
+    "webpack": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/RyanCavanaugh/project-references-demo#readme",
   "dependencies": {
-    "typescript": "^3.5.3"
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }

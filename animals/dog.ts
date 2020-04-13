@@ -1,18 +1,17 @@
-import Animal from '.';
-import { makeRandomName } from '../core/utilities';
+import Animal from ".";
+import { makeRandomName } from "../core/utilities";
 
 export interface Dog extends Animal {
-    woof(): void;
-    name: string;
+  woof(): void;
+  name: string;
 }
 
 export function createDog(): Dog {
-    return ({
-        size: "medium",
-        woof: function(this: Dog) {
-            console.log(`${this.name} says "Woof"!`);
-        },
-        name: makeRandomName()
-    });
+  return {
+    size: "medium",
+    woof: function (this: Dog) {
+      console.log(`${this.name} says "Woof"!`);
+    },
+    name: makeRandomName(),
+  };
 }
-
