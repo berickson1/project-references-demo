@@ -11,6 +11,8 @@ export function createDog(): Dog {
     size: "medium",
     woof: function (this: Dog) {
       console.log(`${this.name} says "Woof"!`);
+      // COMPILER ERROR
+      //thisDoesntCompile();
     },
     name: makeRandomName(),
   };
