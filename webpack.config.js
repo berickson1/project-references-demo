@@ -14,8 +14,6 @@ module.exports = {
         test: /\.tsx?$/,
         loader: "ts-loader",
         options: {
-          logLevel: "info",
-          logInfoToStdOut: true,
           projectReferences: true,
         },
       },
