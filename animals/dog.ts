@@ -1,5 +1,7 @@
 import Animal from ".";
 import { makeRandomName } from "../core/utilities";
+//import { foo } from "./foo";
+//foo();
 
 export interface Dog extends Animal {
   woof(): void;

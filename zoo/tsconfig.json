@@ -8,5 +8,6 @@
     {
       "path": "../animals"
     }
-  ]
+  ],
+  "include": ["**/*", "**/*.json"]
 }
