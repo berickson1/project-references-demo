@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b -v",
+    "doc": "typedoc zoo/zoo.ts",
     "clean": "tsc -b --clean",
     "webpack": "webpack --watch"
   },
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/RyanCavanaugh/project-references-demo#readme",
   "dependencies": {
+    "typedoc": "0.20.0-beta.24",
     "typescript": "^4.1.2"
   },
   "devDependencies": {
