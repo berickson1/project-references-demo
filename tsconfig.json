@@ -8,7 +8,46 @@
       "path": "./animals"
     },
     {
+      "path": "./components"
+    },
+    {
       "path": "./zoo"
+    },
+    {
+      "path": "./mod1"
+    },
+    {
+      "path": "./mod2"
+    },
+    {
+      "path": "./mod3"
+    },
+    {
+      "path": "./mod4"
+    },
+    {
+      "path": "./mod5"
+    },
+    {
+      "path": "./mod6"
+    },
+    {
+      "path": "./mod7"
+    },
+    {
+      "path": "./mod8"
+    },
+    {
+      "path": "./mod9"
+    },
+    {
+      "path": "./mod10"
+    },
+    {
+      "path": "./mod11"
+    },
+    {
+      "path": "./mod12"
     }
   ]
 }

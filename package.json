@@ -4,7 +4,7 @@
   "description": "The structure of this repo is as follows:",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b -v",
+    "build": "tsc -b -v --extendedDiagnostics",
     "clean": "tsc -b --clean",
     "webpack": "webpack --watch"
   },
@@ -19,10 +19,16 @@
   },
   "homepage": "https://github.com/RyanCavanaugh/project-references-demo#readme",
   "dependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@material-ui/core": "^4.11.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "ts-loader": "^6.2.2",
+    "@types/jest": "^22.2.3",
+    "@types/react": "16.8.24",
+    "@types/react-dom": "16.0.5",
+    "ts-loader": "8.0.7",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }

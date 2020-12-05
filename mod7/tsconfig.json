@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig-base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "."
+  },
+  "references": [
+    {
+      "path": "../mod8"
+    },
+    {
+      "path": "../components"
+    }
+  ]
+}

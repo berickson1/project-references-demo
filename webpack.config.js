@@ -17,6 +17,7 @@ module.exports = {
           logLevel: "info",
           logInfoToStdOut: true,
           projectReferences: true,
+          onlyCompileBundledFiles: true
         },
       },
     ],

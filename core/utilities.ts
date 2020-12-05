@@ -1,6 +1,7 @@
 
+import { makeRandomName as foo } from '../mod1/utilities';
 export function makeRandomName() {
-    return "Bob!?! ";
+    return foo()
 }
 
 export function lastElementOf<T>(arr: T[]): T | undefined {
